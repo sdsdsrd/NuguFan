@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@drawable/nav1"
+    android:orientation="horizontal"
+    android:paddingLeft="28dp"
+    android:paddingTop="52dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:contentDescription="@string/nav_header_desc"
+        app:srcCompat="@drawable/profile" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="아기서동"
+            android:layout_marginLeft="14dp"
+            android:textSize="17dp"
+            android:fontFamily="@font/aritasemibold"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BTS, ARMY"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="3dp"
+            android:textSize="11dp"
+            android:fontFamily="@font/aritasemibold"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E6E6F9">
+
+    <ImageView
+        android:id="@+id/simageView1"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="@drawable/gradation2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아이돌 퀴즈 만들기"
+        android:textSize="28dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/aritabold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-45dp"
+        android:layout_below="@id/simageView1"/>
+
+    <ImageView
+        android:id="@+id/simageView3"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/white_box"
+        android:layout_below="@id/simageView1"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/stextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="퀴즈 유형 선택"
+        android:textSize="20dp"
+        android:textColor="#7F6BFB"
+        android:fontFamily="@font/aritabold"
+        android:layout_marginLeft="50dp"
+        android:layout_above="@id/simageView3"
+        android:layout_marginBottom="-70dp"/>
+
+    <TextView
+        android:id="@+id/stextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="누구팬은 다양한 퀴즈 포맷을 지원합니다.\n원하는 유형을 선택해서 재미있는 퀴즈를 만들어 보세요!"
+        android:textColor="#707070"
+        android:textSize="13dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/stextView1"
+        android:layout_marginTop="85dp"
+        android:lineSpacingExtra="8dp"/>
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="295dp"
+        android:layout_height="68dp"
+        android:background="@drawable/imagev"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/stextView2"
+        android:layout_marginTop="18dp"/>
+
+    <ImageView
+        android:layout_width="295dp"
+        android:layout_height="68dp"
+        android:background="@drawable/purple_box"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button1"
+        android:layout_marginTop="-68dp"/>
+
+    <TextView
+        android:id="@+id/stextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="T  텍스트형"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/aritasemibold"
+        android:layout_below="@id/button1"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="-58dp"/>
+
+    <TextView
+        android:id="@+id/stextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="문제를 읽고 알맞은 답을 고르시오."
+        android:textSize="13dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/aritasemibold"
+        android:layout_below="@id/stextView3"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="295dp"
+        android:layout_height="68dp"
+        android:background="@drawable/textv"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button1"
+        android:layout_marginTop="15dp"/>
+
+    <ImageView
+        android:layout_width="295dp"
+        android:layout_height="68dp"
+        android:background="@drawable/purple_box"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button2"
+        android:layout_marginTop="-68dp"/>
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:background="@drawable/ic_menu_gallery"
+        android:backgroundTint="@android:color/white"
+        android:layout_below="@id/button2"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="-58dp"/>
+
+    <TextView
+        android:id="@+id/stextView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이미지형"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/aritasemibold"
+        android:layout_below="@id/button2"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="-58dp"/>
+
+    <TextView
+        android:id="@+id/stextView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="문제를 읽고 알맞은 답을 고르시오."
+        android:textSize="13dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/aritasemibold"
+        android:layout_below="@id/stextView5"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_width="295dp"
+        android:layout_height="68dp"
+        android:background="@drawable/soundv"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button2"
+        android:layout_marginTop="15dp"/>
+
+    <ImageView
+        android:layout_width="295dp"
+        android:layout_height="68dp"
+        android:background="@drawable/purple_box"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button3"
+        android:layout_marginTop="-68dp"/>
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:background="@drawable/speaker"
+        android:layout_below="@id/button3"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="-58dp"/>
+
+    <TextView
+        android:id="@+id/stextView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="사운드형"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/aritasemibold"
+        android:layout_below="@id/button3"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="-58dp"/>
+
+    <TextView
+        android:id="@+id/stextView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="숨스밍했다면 1 초만 듣고도 무슨 곡인지 알겠지?"
+        android:textSize="12dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/aritasemibold"
+        android:layout_below="@id/stextView7"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageButton
+        android:id="@+id/button4"
+        android:layout_width="295dp"
+        android:layout_height="68dp"
+        android:background="@drawable/videov"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button3"
+        android:layout_marginTop="15dp"/>
+
+    <ImageView
+        android:layout_width="295dp"
+        android:layout_height="68dp"
+        android:background="@drawable/purple_box"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button4"
+        android:layout_marginTop="-68dp"/>
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:background="@drawable/video"
+        android:backgroundTint="@android:color/white"
+        android:layout_below="@id/button4"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="-58dp"/>
+
+    <TextView
+        android:id="@+id/stextView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비디오형"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/aritasemibold"
+        android:layout_below="@id/button4"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="-58dp"/>
+
+    <TextView
+        android:id="@+id/stextView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="맨날 보던 우리 언니, 오빠 영상이 기출문제!"
+        android:textSize="12dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/aritasemibold"
+        android:layout_below="@id/stextView9"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageButton
+        android:id="@+id/button5"
+        android:layout_width="295dp"
+        android:layout_height="68dp"
+        android:background="@drawable/concert"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button4"
+        android:layout_marginTop="15dp"/>
+
+    <ImageView
+        android:layout_width="295dp"
+        android:layout_height="68dp"
+        android:background="@drawable/purple_box"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button5"
+        android:layout_marginTop="-68dp"/>
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:background="@drawable/video"
+        android:backgroundTint="@android:color/white"
+        android:layout_below="@id/button5"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="-58dp"/>
+
+    <TextView
+        android:id="@+id/stextView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="종합형"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/aritasemibold"
+        android:layout_below="@id/button5"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="-58dp"/>
+
+    <TextView
+        android:id="@+id/stextView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="난이도 UP ! 모든 퀴즈 유형을 MIX !"
+        android:textSize="12dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/aritasemibold"
+        android:layout_below="@id/stextView11"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/lock"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/lock"
+        android:layout_below="@id/button5"
+        android:layout_marginTop="-55dp"
+        android:layout_marginLeft="300dp"/>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="8dp"
+        android:background="@drawable/white_box"
+        android:layout_below="@id/lock"
+        android:layout_marginLeft="298dp"
+        android:layout_marginTop="5dp"/>
+    
+    <ImageView
+        android:layout_width="6dp"
+        android:layout_height="6dp"
+        android:background="@drawable/key"
+        android:layout_below="@id/lock"
+        android:layout_marginLeft="301dp"
+        android:layout_marginTop="6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1,000P"
+        android:fontFamily="@font/aritabold"
+        android:textSize="6dp"
+        android:textColor="#8280AB"
+        android:layout_below="@id/lock"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="5dp"/>
+
+</RelativeLayout>

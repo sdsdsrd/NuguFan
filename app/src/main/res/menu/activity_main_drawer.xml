@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mypage"
+            android:icon="@drawable/mypage"
+            android:title="마이페이지"/>
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/event"
+            android:title="이벤트" />
+        <item
+            android:id="@+id/nav_quiz"
+            android:icon="@drawable/quiz"
+            android:title="퀴즈" />
+        <item
+            android:id="@+id/nav_ranking"
+            android:icon="@drawable/ranking"
+            android:title="랭킹" />
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/notice"
+            android:title="공지사항" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/setting"
+            android:title="설정" />
+    </group>
+
+</menu>

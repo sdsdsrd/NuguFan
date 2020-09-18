@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="93dp"
+        android:layout_marginLeft="40dp"
+        android:text="반가워요, 아기서동 님!"
+        android:textSize="25dp"
+        android:fontFamily="@font/aritabold"
+        android:textColor="#6469FB"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:text="당신은 누구의 팬인가요?"
+        android:textSize="30dp"
+        android:fontFamily="@font/aritabold"
+        android:textColor="#6469FB"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="40dp"
+        android:text="아기서동님이 어떤 아이돌의 팬인지 알려주세요."
+        android:textSize="14dp"
+        android:fontFamily="@font/aritabold"
+        android:textColor="#6469FB"/>
+
+    <LinearLayout
+        android:id="@+id/searchlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView3"
+        android:layout_marginTop="50dp">
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="335dp"
+            android:layout_height="38dp"
+            android:background="#EAEAEA"
+            android:hint="Search"
+            android:textColorHint="#ffffff"
+            android:paddingLeft="10dp"/>
+
+        <Button
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="-38dp"
+            android:background="@drawable/search"/>
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/searchlayout"
+        android:layout_marginTop="25dp">
+
+        <TableRow>
+            <Button
+                android:id="@+id/bts"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:background="@drawable/bts"
+                android:text="방탄\n소년단"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:fontFamily="@font/aritasemibold"
+                android:layout_gravity="center_vertical"/>
+            <Button
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:background="@drawable/wannaone"
+                android:layout_marginLeft="28dp"
+                android:text="워너원"
+                android:textColor="#ffffff"
+                android:textSize="22dp"
+                android:fontFamily="@font/aritasemibold"
+                android:layout_gravity="center_vertical"/>
+            <Button
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:background="@drawable/nctdream"
+                android:layout_marginLeft="28dp"
+                android:text="NCT DREAM"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:fontFamily="@font/aritasemibold"
+                android:layout_gravity="center_vertical"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:background="@drawable/nct127"
+                android:layout_marginVertical="28dp"
+                android:text="NCT\n127"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:fontFamily="@font/aritasemibold"
+                android:layout_gravity="center_vertical"/>
+            <Button
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:background="@drawable/redvelvet"
+                android:layout_marginLeft="28dp"
+                android:layout_marginVertical="28dp"
+                android:text="레드벨벳"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:fontFamily="@font/aritasemibold"
+                android:layout_gravity="center_vertical"/>
+            <Button
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:background="@drawable/izone"
+                android:layout_marginLeft="28dp"
+                android:layout_marginVertical="28dp"
+                android:text="아이즈원"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:fontFamily="@font/aritasemibold"
+                android:layout_gravity="center_vertical"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:background="@drawable/chungha"
+                android:text="청하"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:fontFamily="@font/aritasemibold"
+                android:layout_gravity="center_vertical"/>
+            <Button
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:background="@drawable/astro"
+                android:layout_marginLeft="28dp"
+                android:text="아스트로"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:fontFamily="@font/aritasemibold"
+                android:layout_gravity="center_vertical"/>
+            <Button
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:background="@drawable/mamamoo"
+                android:layout_marginLeft="28dp"
+                android:text="마마무"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:fontFamily="@font/aritasemibold"
+                android:layout_gravity="center_vertical"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:background="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"/>
+
+</RelativeLayout>

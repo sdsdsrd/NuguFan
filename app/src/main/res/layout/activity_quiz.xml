@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6F9">
+    
+    <LinearLayout
+        android:id="@+id/countLayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="50dp">
+        
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/gray1"
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:background="@drawable/gray_count"/>
+
+            <ImageView
+                android:id="@+id/purple1"
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:background="@drawable/purple_count"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="8dp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="-32dp"/>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp">
+
+            <ImageView
+                android:id="@+id/gray2"
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:background="@drawable/gray_count"/>
+
+            <ImageView
+                android:id="@+id/purple2"
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:background="@drawable/purple_count"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textSize="8dp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="-32dp"/>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp">
+
+            <ImageView
+                android:id="@+id/gray3"
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:background="@drawable/gray_count"/>
+
+            <ImageView
+                android:id="@+id/purple3"
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:background="@drawable/purple_count"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textSize="8dp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="-32dp"/>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp">
+
+            <ImageView
+                android:id="@+id/gray4"
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:background="@drawable/gray_count"/>
+
+            <ImageView
+                android:id="@+id/purple4"
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:background="@drawable/purple_count"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textSize="8dp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="-32dp"/>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp">
+
+            <ImageView
+                android:id="@+id/gray5"
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:background="@drawable/gray_count"/>
+
+            <ImageView
+                android:id="@+id/purple5"
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:background="@drawable/purple_count"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textSize="8dp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="-32dp"/>
+        
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/quizbox"
+        android:layout_width="354dp"
+        android:layout_height="220dp"
+        android:background="@drawable/white_box"
+        android:layout_below="@id/countLayer"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. 누구의 눈일까요?"
+        android:textColor="#707070"
+        android:textSize="25dp"
+        android:fontFamily="@font/aritabold"
+        android:layout_below="@id/quizbox"
+        android:layout_marginTop="-200dp"
+        android:layout_marginLeft="50dp"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:background="@drawable/imagev"
+        android:layout_below="@id/quiz"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+    <TableLayout
+        android:id="@+id/answerbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/quizbox"
+        android:layout_marginTop="50dp">
+
+        <TableRow>
+            <TextView
+                android:layout_width="164dp"
+                android:layout_height="55dp"
+                android:background="@drawable/white_box"
+                android:text="a.엑소 백현"
+                android:textSize="24dp"
+                android:fontFamily="@font/aritabold"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="164dp"
+                android:layout_height="55dp"
+                android:background="@drawable/white_box"
+                android:text="b. 장현승"
+                android:textSize="24dp"
+                android:fontFamily="@font/aritabold"
+                android:gravity="center"
+                android:layout_marginLeft="26dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="164dp"
+                android:layout_height="55dp"
+                android:background="@drawable/white_box"
+                android:text="c. 빅뱅 지드래곤"
+                android:textSize="24dp"
+                android:fontFamily="@font/aritabold"
+                android:gravity="center"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="164dp"
+                android:layout_height="55dp"
+                android:background="@drawable/white_box"
+                android:text="d. 방탄소년단 RM"
+                android:textSize="24dp"
+                android:fontFamily="@font/aritabold"
+                android:gravity="center"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="20dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/answerbox"
+        android:layout_marginTop="50dp">
+
+        <TableRow>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="32dp"
+                android:background="@drawable/purple_count"
+                android:text="1"
+                android:textSize="25dp"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/aritabold"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="32dp"
+                android:background="@drawable/purple_count"
+                android:text="2"
+                android:textSize="25dp"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/aritabold"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="32dp"
+                android:background="@drawable/purple_count"
+                android:text="3"
+                android:textSize="25dp"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/aritabold"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="32dp"
+                android:background="@drawable/purple_count"
+                android:text="4"
+                android:textSize="25dp"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/aritabold"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="32dp"
+                android:background="@drawable/purple_count"
+                android:text="5"
+                android:textSize="25dp"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/aritabold"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="32dp"
+                android:background="@drawable/purple_count"
+                android:text="6"
+                android:textSize="25dp"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/aritabold"
+                android:gravity="center"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="32dp"
+                android:background="@drawable/purple_count"
+                android:text="7"
+                android:textSize="25dp"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/aritabold"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="32dp"
+                android:background="@drawable/purple_count"
+                android:text="8"
+                android:textSize="25dp"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/aritabold"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="32dp"
+                android:background="@drawable/purple_count"
+                android:text="9"
+                android:textSize="25dp"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/aritabold"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="32dp"
+                android:background="@drawable/purple_count"
+                android:text="10"
+                android:textSize="25dp"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/aritabold"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/banner"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

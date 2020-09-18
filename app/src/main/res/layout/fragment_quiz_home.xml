@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6F9">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:background="@drawable/qh1"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/quizSolve"
+        android:layout_width="326dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/imageView"
+        android:background="@drawable/qh2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/quizMake"
+        android:layout_width="326dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/quizSolve"
+        android:background="@drawable/qh3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/qh4"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
